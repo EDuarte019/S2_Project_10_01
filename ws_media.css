@@ -24,6 +24,15 @@ video {
     margin-bottom: 5px;
 }
 
+/* When the screen is above 520 pixels, it will have 360 pixels of with and a margin width of 10 pixels with it floating to the right. */
+@media only screen and (min-width:521px) {
+    video {
+        width: 360px;
+        float: right;
+        margin: 10px;
+    }
+}
+
 
 
 /* Track Styles */
